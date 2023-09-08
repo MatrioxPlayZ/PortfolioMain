@@ -1,0 +1,100 @@
+@media screen and (min-width: 768px) {
+  .abilities {
+    margin-top: 8rem;
+  }
+  .whatCanIdo {
+    font-size: 3rem;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    margin-bottom: 6rem;
+  }
+  .thisSite {
+    font-size: 2rem;
+    font-weight: 200;
+    text-align: center;
+    opacity: 0.6;
+    margin-bottom: 2rem;
+  }
+  .techs {
+    margin-top: 4rem;
+    display: flex;
+    gap: 4rem;
+    text-align: center;
+    width: 100vh;
+    justify-content: center;
+    margin: auto;
+    font-size: 4rem;
+    opacity: 0.2;
+    max-width: min-content;
+    transition: all 100ms linear;
+  }
+  .techs:hover {
+    transition: all 100ms linear;
+    opacity: 0.5;
+  }
+  .canDo {
+    margin-top: 24rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+    opacity: 0.7;
+  }
+  * {
+    list-style-type: none;
+  }
+
+  .mainTech {
+    transition: all 100ms linear;
+    text-align: center;
+    margin: auto;
+    width: max-content;
+    opacity: 0.85;
+    border-bottom: 1px solid #222;
+  }
+  .subTechs {
+    max-width: max-content;
+    transition: all 100ms linear;
+    opacity: 0.5;
+  }
+  .subTechs:hover {
+    transition: all 100ms linear;
+    opacity: 0.85;
+  }
+  .image {
+    width: max-content;
+    height: max-content;
+    margin: auto;
+    margin-top: 10rem;
+    transition: all 100ms ease;
+
+    overflow: hidden;
+  }
+  #imageTo {
+    border-radius: 1rem;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s;
+    overflow: hidden;
+  }
+  .data {
+    justify-content: center;
+    gap: 1rem;
+    display: flex;
+    transition: all 200ms ease;
+    max-width: fit-content;
+    margin: auto;
+    padding: 2rem;
+    margin-top: 0;
+    margin-bottom: 4rem;
+  }
+  .data:hover {
+    transition: all 200ms ease;
+    letter-spacing: 0.2rem;
+    gap: 2rem;
+    margin: auto;
+    margin-top: 0rem;
+    margin-bottom: 4rem;
+  }
+}

@@ -1,0 +1,75 @@
+@media screen and (min-width: 768px) {
+  .home {
+    padding: 6rem;
+    font-family: "Poppins", sans-serif;
+    height: 90vh;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: nowrap;
+  }
+  .headerName {
+    font-weight: 200;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 2px;
+    max-width: max-content;
+    transition: all 200ms ease;
+    opacity: 0.8;
+  }
+  .subheaderPlace {
+    max-width: max-content;
+    opacity: 0.8;
+    font-weight: 100;
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    transition: all 200ms ease;
+  }
+  .subheaderPlace:hover,
+  .headerName:hover {
+    transition: all 300ms ease;
+    transform: translateX(12px);
+  }
+  .divider {
+    border-top: 1px solid white;
+    max-width: 16rem;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  .aboutMe {
+    font-weight: 200;
+    font-size: 1.5rem;
+    letter-spacing: 0.4rem;
+    opacity: 0.5;
+    transition: all 200ms linear;
+    text-align: center;
+    padding: 0.2rem;
+  }
+  .aboutMe:hover {
+    transition: all 200ms linear;
+    opacity: 0.8;
+  }
+  .about {
+    padding-top: 8rem;
+    width: 60vh;
+    margin: auto;
+    margin-top: 5rem;
+  }
+  .siteInfo {
+    font-weight: 100;
+    font-size: 2rem;
+    transition: all 100ms ease;
+    opacity: 0.5;
+    letter-spacing: 0.1rem;
+    padding: 0.5rem;
+  }
+  .siteInfo:hover {
+    transition: all 100ms linear;
+    opacity: 1;
+  }
+}
